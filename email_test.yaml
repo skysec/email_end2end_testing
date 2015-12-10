@@ -1,0 +1,25 @@
+config:
+ wait: 5
+ attempts: 3
+
+<user>:
+ email_address: <user email>
+ servertype: EWS
+ user: <username>
+ pass: <password>
+ server: 'https://<server>/ews/Exchange.asmx'
+
+<user>:
+ email_address: <user email>
+ servertype: EWS
+ user: <username>
+ pass: <password>
+ server: 'https://<server>/ews/Exchange.asmx'
+
+<user>:
+ email_address: <user email>
+ servertype: GMAIL
+ user: <username>
+ pass: <password>
+ server: gmail
+
